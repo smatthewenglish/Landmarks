@@ -15,6 +15,8 @@
 		83D0E44E24FC76CC005BDDBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D0E44C24FC76CC005BDDBB /* LaunchScreen.storyboard */; };
 		83D0E45924FC76CC005BDDBB /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D0E45824FC76CC005BDDBB /* LandmarksTests.swift */; };
 		83D0E46424FC76CC005BDDBB /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D0E46324FC76CC005BDDBB /* LandmarksUITests.swift */; };
+		83D0E47224FC83E9005BDDBB /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D0E47124FC83E9005BDDBB /* CircleImage.swift */; };
+		83D0E47424FC8638005BDDBB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D0E47324FC8638005BDDBB /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		83D0E45F24FC76CC005BDDBB /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D0E46324FC76CC005BDDBB /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		83D0E46524FC76CC005BDDBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83D0E47124FC83E9005BDDBB /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		83D0E47324FC8638005BDDBB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				83D0E44324FC76CB005BDDBB /* SceneDelegate.swift */,
 				83D0E44524FC76CB005BDDBB /* ContentView.swift */,
 				83D0E44724FC76CC005BDDBB /* Assets.xcassets */,
+				83D0E47124FC83E9005BDDBB /* CircleImage.swift */,
+				83D0E47324FC8638005BDDBB /* MapView.swift */,
 				83D0E44C24FC76CC005BDDBB /* LaunchScreen.storyboard */,
 				83D0E44F24FC76CC005BDDBB /* Info.plist */,
 				83D0E44924FC76CC005BDDBB /* Preview Content */,
@@ -268,6 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				83D0E44224FC76CB005BDDBB /* AppDelegate.swift in Sources */,
+				83D0E47224FC83E9005BDDBB /* CircleImage.swift in Sources */,
+				83D0E47424FC8638005BDDBB /* MapView.swift in Sources */,
 				83D0E44424FC76CB005BDDBB /* SceneDelegate.swift in Sources */,
 				83D0E44624FC76CB005BDDBB /* ContentView.swift in Sources */,
 			);
@@ -436,6 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = JZK98QUAAY;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Landmarks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,6 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = JZK98QUAAY;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Landmarks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
